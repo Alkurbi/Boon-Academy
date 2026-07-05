@@ -1,0 +1,31 @@
+{
+  "run_date": "2025-10-14",
+  "quiz2_date": "2025-10-20",
+  "students": 200,
+  "failing_quiz1": 67,
+  "failing_never_contacted": 20,
+  "tiers": {
+    "LOW": 129,
+    "HIGH": 53,
+    "CRITICAL": 17,
+    "MEDIUM": 1
+  },
+  "planned_coverage_critical_high": "70/70 before Quiz 2",
+  "cleaning_log": {
+    "daily_orphan_rows_dropped": 0,
+    "notes_orphan_rows_dropped": 0,
+    "daily_duplicate_rows_dropped": 0,
+    "attendance_nulls_kept_as_missing": 3,
+    "attendance_out_of_range_clamped": 0,
+    "practice_outliers_capped": 3,
+    "quiz_scores_dated_before_quiz_day": 1,
+    "empty_notes_dropped": 0
+  },
+  "llm_enabled": true,
+  "llm_provider": "openrouter",
+  "llm_calls": 83,
+  "fallbacks_used": 1,
+  "tokens_in": 56624,
+  "tokens_out": 67529,
+  "est_cost_usd": 0.3943
+}
