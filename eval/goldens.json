@@ -1,0 +1,67 @@
+[
+  {
+    "student_id": "S005",
+    "student_name": "Ahmad",
+    "notes": [
+      {"date": "2025-10-06", "text": "اتصلت على ام احمد بخصوص غيابه الاخير. قالت انه يسهر على الالعاب. وعدت انها راح تراقب وقت الجوال. راح اتابع معاها الخميس"},
+      {"date": "2025-10-11", "text": "احمد ما حضر اليوم. ارسلت واتساب للام، ما ردت"},
+      {"date": "2025-10-13", "text": "لسا ما في احمد. اتصلت مرتين على الام، ما ردت. قلقانه عليه"},
+      {"date": "2025-10-14", "text": "احمد محتاج متابعه فورية. الموضوع بدا من مشكلة الالعاب بس الحين صار اسوأ"}
+    ],
+    "expected": {"last_contact_method": "call", "contact_outcome": "no_answer", "intervention_succeeded": false}
+  },
+  {
+    "student_id": "S012",
+    "student_name": "Yousef",
+    "notes": [
+      {"date": "2025-10-08", "text": "حاولت اتصل على اهل يوسف ٣ مرات اليوم. ما في رد. يوسف فاته الاختبار"},
+      {"date": "2025-10-12", "text": "اخيراً وصلت لأبو يوسف - ما كان يدري عن البرنامج اصلاً! قال المدرسه ما قالت لهم شي. كان منزعج بس يبي يوسف يكمل"},
+      {"date": "2025-10-14", "text": "يوسف الوضع معاه يوضح اهمية التواصل مع الاهل من اول يوم. لو كنا عرفنا الموضوع قبل كان وضعه افضل"}
+    ],
+    "expected": {"last_contact_method": "call", "contact_outcome": "reached", "intervention_succeeded": null}
+  },
+  {
+    "student_id": "S004",
+    "student_name": "Ahmad",
+    "notes": [
+      {"date": "2025-10-03", "text": "احمد حضور ضعيف وتمارين شبه معدومة. حالة تحتاج تدخل عاجل"},
+      {"date": "2025-10-14", "text": "احمد لسا على نفس الوضع. حاولت اتواصل مع الاهل بدون نتيجة"}
+    ],
+    "expected": {"contact_outcome": "no_answer", "intervention_succeeded": false}
+  },
+  {
+    "student_id": "S019",
+    "student_name": "Fatima",
+    "notes": [
+      {"date": "2025-10-04", "text": "فاطمة حضور ضعيف ودرجات متدنية. محتاجه دعم شامل"}
+    ],
+    "expected": {"last_contact_method": "none", "contact_outcome": "unknown", "intervention_succeeded": null}
+  },
+  {
+    "student_id": "S030",
+    "student_name": "Hassan",
+    "notes": [
+      {"date": "2025-10-02", "text": "حسن يحضر دايم بس ما يتمرن. نفس مشكلة خالد - يفكر الحضور كافي"},
+      {"date": "2025-10-14", "text": "حسن مثال ثاني على نمط 'الحضور كافي'. لازم نعمل حملة توعية شاملة عن اهمية التمارين"}
+    ],
+    "expected": {"last_contact_method": "none", "contact_outcome": "unknown", "intervention_succeeded": null}
+  },
+  {
+    "student_id": "S075",
+    "student_name": "Omar",
+    "notes": [
+      {"date": "2025-10-03", "text": "عمر يتهرب من الاسئلة الصعبة. لازم نشتغل على ثقته بنفسه"},
+      {"date": "2025-10-14", "text": "عمر محتاج وقت اكثر. الثقة بالنفس ما تتبنى بيوم وليلة"}
+    ],
+    "expected": {"last_contact_method": "none", "contact_outcome": "unknown", "intervention_succeeded": null}
+  },
+  {
+    "student_id": "S110",
+    "student_name": "Ahmad",
+    "notes": [
+      {"date": "2025-10-03", "text": "احمد يحتاج يفهم ان التحدي مهم للتطور. التمارين السهلة ما راح توصله لهدفه"},
+      {"date": "2025-10-14", "text": "احمد فهم النقطة. بدا يتحدى نفسه اكثر بالتمارين"}
+    ],
+    "expected": {"last_contact_method": "none", "contact_outcome": "unknown", "intervention_succeeded": true}
+  }
+]
