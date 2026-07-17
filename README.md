@@ -25,5 +25,3 @@ Dashboard: `streamlit run app.py` (reads `outputs/` only, no API calls).
 - `note_insights.csv` - structured LLM analysis of the notes
 - `run_summary.json` - cleaning log, coverage, LLM cost
 - `eval_report.md` - golden-set + LLM-judge eval (with `--eval`)
-
-Video walkthrough: https://youtu.be/qup7rkZmV8c
